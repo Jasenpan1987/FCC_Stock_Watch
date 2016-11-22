@@ -5,6 +5,8 @@ const axios = require('axios');
 
 const { API_KEY, BASE_URL } = require('../configs/api_config');
 
+
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
